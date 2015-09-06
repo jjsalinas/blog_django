@@ -1,5 +1,8 @@
 #Aplicacion Blog
 
+Puede verse funcionando aquí: https://dai-jjsalinas-1.c9.io
+(Servicio entorno ejecución en la nube de cloud9)
+
 #Login admin en /admin:
 Usuario: ubuntu
 
