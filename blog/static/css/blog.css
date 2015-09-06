@@ -1,0 +1,60 @@
+body {
+    padding-left: 15px;
+}
+
+.menu{
+    background: grey;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 0;
+    padding: 5px 50px 5px 10px;
+}
+
+a{
+    color: yellow;
+    font-family: inconsolata;
+}
+
+.titulo_blog{
+    color: blue;
+    font-family: inconsolata;
+    background: yellow;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.titulo_entrada{
+    color: orange;
+    font-family: inconsolata;
+}
+
+.una_entrada{
+    margin-top: 0;
+    padding: 20px 10px 20px 40px;
+    background: grey;
+}
+
+.fecha_publi{
+    font-family: monospace;
+}
+
+.texto_cuerpo{
+    font-family: inconsolata;
+}
+
+.titulo_formulario{
+    color: orange;
+    font-family: inconsolata;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+form{
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.opcion_editar{
+    color: red;
+    background: black;
+}

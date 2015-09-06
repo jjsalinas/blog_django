@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    {% for entrada in entradas %}
+        <section class="una_entrada">
+            <h2 class="titulo_entrada"><a class="titulo_entrada" href="{% url "detalle_entrada" pk=entrada.pk %}">{{entrada.titulo}}</a></h2>
+            {% if entrada.fecha_publi %}
+                <p class="fecha_publi">{{entrada.fecha_publi}}</p>
+            {% endif %}
+            <p class="texto_cuerpo">{{entrada.cuerpo}}</p>
+        </section>
+    {% endfor %}
+{% endblock content %}

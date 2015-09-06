@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+    <h2 class="titulo_formulario">Nueva Entrada</h2>
+    <form class"formulario_entrada" method="POST">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Guardar</button>
+    </form>
+{% endblock %}

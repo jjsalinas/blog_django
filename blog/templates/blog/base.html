@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Entradas del Blog</title>
+        <link rel="stylesheet" href="{% static "css/blog.css" %}">
+    </head>
+    <body>
+        <nav class="menu">
+            <a href="https://dai-jjsalinas-1.c9.io/">Blog</a>
+            <a href="https://dai-jjsalinas-1.c9.io/admin">Login</a>
+            <a href="{% url "nueva_entrada" %}">Nueva Entrada</a>
+        </nav>
+        <h1 class="titulo_blog">Las Entradas del Blog</h1>
+            {% block content %}
+            {% endblock %}
+    </body>
+</html>
