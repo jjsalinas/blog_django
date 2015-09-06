@@ -8,7 +8,9 @@
         <nav class="menu">
             <a href="https://dai-jjsalinas-1.c9.io/">Blog</a>
             <a href="https://dai-jjsalinas-1.c9.io/admin">Login</a>
-            <a href="{% url "nueva_entrada" %}">Nueva Entrada</a>
+            {% if user.is_authenticated %}
+              <a href="{% url "nueva_entrada" %}">Nueva Entrada</a>
+            {% endif %}
         </nav>
         <h1 class="titulo_blog">Las Entradas del Blog</h1>
             {% block content %}
