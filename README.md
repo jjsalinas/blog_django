@@ -1,7 +1,9 @@
-#Aplicacion Blog
+#Aplicacion Web: Blog
+Blog básico creado con el framwork django. 
+El css es de aspecto horrible, pero las funciones básicas de registrarse, logarse, publicar una entrada en el blog o editar una entrada ya publicada si funcionan correctamente.
 
 He usado para ver el código en funcionamiento* el servicio nube cloud9: https://dai-jjsalinas-1.c9.io
-*Al hacer logout en cloud9 deja de funcionar la instancia ejecutandose ahi al par de horas.
+*Al hacer logout en cloud9 deja de funcionar la instancia ejecutandose ahí al par de horas y el enlace muere.
 
 En la instancia funcionando en la url de cloud9 existe un admin:
 
