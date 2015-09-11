@@ -1,9 +1,10 @@
 #Aplicacion Blog
 
-Puede verse funcionando aquí: https://dai-jjsalinas-1.c9.io
-(Servicio entorno ejecución en la nube de cloud9)
+He usado para ver el código en funcionamiento* el servicio nube cloud9: https://dai-jjsalinas-1.c9.io
+*Al hacer logout en cloud9 deja de funcionar la instancia ejecutandose ahi al par de horas.
 
-#Login admin en /admin:
+En la instancia funcionando en la url de cloud9 existe un admin:
+
 Usuario: ubuntu
 
 Password: tenita  
