@@ -6,12 +6,6 @@ He usado para ver el código en funcionamiento* el servicio nube cloud9: https:/
 
 *Al hacer logout en cloud9 deja de funcionar la instancia ejecutandose ahí al par de horas y el enlace muere.
 
-En la instancia funcionando en la url de cloud9 existe un admin:
-
-Usuario: ubuntu
-
-Password: tenita  
-
 #Modelo
 Modelo Blog:
 
